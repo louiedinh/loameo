@@ -6,7 +6,7 @@ AUTHOR = u'Louie Dinh & Raymond Huang'
 SITENAME = u'Loameo'
 SITEURL = 'http://localhost:8000'
 
-TIMEZONE = 'Pacific/Vancouver'
+TIMEZONE = 'America/Vancouver'
 
 DEFAULT_LANG = u'en'
 
