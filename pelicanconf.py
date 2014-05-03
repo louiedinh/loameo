@@ -45,7 +45,7 @@ DISQUS_SITENAME = "pythonpracticeprojects"
 
 ARTICLE_EXCLUDES = ('pages', 'drafts')
 
-EMAIL_SUBSCRIBE_URL = "ihttp://eepurl.com/TWobf"
+EMAIL_SUBSCRIBE_URL = "http://eepurl.com/TWobf"
 FORUMS_URL = ""
 
 SITE_META_DESCRIPTION = "Loameo: Vancouver's Data Blog"
