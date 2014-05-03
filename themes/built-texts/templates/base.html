@@ -35,9 +35,12 @@
             {% endfor %}
             {% endif %}
 
-        <li><a href="{{ FORUMS_URL }}">Community</a></li>
+       {% if FORUMS_URL %}
+       <li><a href="{{ FORUMS_URL }}">Community</a></li>
+       {% endif %}
+
        <li><a href="{{ EMAIL_SUBSCRIBE_URL }}">Subscribe</a></li>
-       <li><a href="{{ SITEURL }}">Projects</a></li>
+       <li><a href="{{ SITEURL }}">Home</a></li>
 	   {% for cat, null in categories %}
 	    <li {% if cat == category %} class="active" {% endif %}>
 	      <a href="{{ SITEURL }}/{{ cat.url }} ">{{ cat }}</a>
