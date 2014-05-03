@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Louie Dinh'
-SITENAME = u'Python Practice Projects'
+AUTHOR = u'Louie Dinh & Raymond Huang'
+SITENAME = u'Loameo'
 SITEURL = 'http://localhost:8000'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Pacific/Vancouver'
 
 DEFAULT_LANG = u'en'
 
@@ -48,5 +48,5 @@ ARTICLE_EXCLUDES = ('pages', 'drafts')
 EMAIL_SUBSCRIBE_URL = "http://www.eepurl.com/FnX4f"
 FORUMS_URL = "http://discourse.pythonpracticeprojects.com"
 
-SITE_META_DESCRIPTION = "Programming practice projects designed to take your Python coding chops to the next level"
+SITE_META_DESCRIPTION = "Loameo: Vancouver's Premier Data Blog"
 
